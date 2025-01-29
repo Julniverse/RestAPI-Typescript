@@ -22,9 +22,7 @@ export const getProduct = (req: Request, res: Response) => {
   } = req
 
   if (name) {
-    // eslint-disable-next-line array-callback-return
     const filterProduct = products.filter((product) => {
-      // eslint-disable-next-line no-return-assign
       if (product.name === name) {
         return product
       }
