@@ -3,6 +3,8 @@ import express, { Application } from 'express'
 import { routes } from './routes'
 import { logger } from './utils/logger'
 import cors from 'cors'
+// Connect DB
+import './utils/connectdb'
 
 const app: Application = express()
 const port: Number = 8080
