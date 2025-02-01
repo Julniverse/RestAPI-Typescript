@@ -30,4 +30,4 @@ npm run build ||
     false;
 )
 
-echo "Success Commit"
+echo "Success Committing to your github repository :D"
