@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo ' Styling, testing and building your project before committing'
+echo ' Styling, testing and building your project before committing to github'
 
 # Check Prettier
 npm run check-format ||
@@ -20,7 +20,7 @@ npm run check-lint ||
 # Check tsconfig
 npm run check-types || 
 (
-    echo "Failed type check. Make the changes require above, add changes and try to commit again";
+    echo "Failed type check. Make the changes require listed above, add changes and try to commit again";
     false;
 )
 
