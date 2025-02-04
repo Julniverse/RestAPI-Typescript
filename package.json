@@ -19,7 +19,7 @@
       "pre-push": "ng build --aot true"
     }
   },
-  "author": "Avip Syaifulloh",
+  "author": "Juliandi Kurniansyah",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.12",
