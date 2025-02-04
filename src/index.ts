@@ -24,4 +24,4 @@ app.use((req, res, next) => {
 
 routes(app)
 
-app.listen(port, () => logger.info(`Server is listening on port ${port}`))
+app.listen(port, () => logger.info(`Server is now listening on port ${port}`))
